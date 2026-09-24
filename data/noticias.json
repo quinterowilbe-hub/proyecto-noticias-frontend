@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "titulo": "Avances en inteligencia artificial",
+    "descripcion": "Los últimos avances en IA están transformando la educación.",
+    "categoria": "Tecnológicas",
+    "imagen": "https://placehold.co/380x200/1E3A8A/white?text=Noticia+1",
+    "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "autor": "Juan Pérez",
+    "fecha": "2026-08-15"
+  },
+  {
+    "id": 2,
+    "titulo": "Descubre los mejores destinos turísticos",
+    "descripcion": "Una guía completa para viajeros aventureros.",
+    "categoria": "Turísticas",
+    "imagen": "https://placehold.co/380x200/1E3A8A/white?text=Noticia+2",
+    "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "autor": "María Gómez",
+    "fecha": "2026-08-14"
+  },
+  {
+    "id": 3,
+    "titulo": "Nuevas técnicas de estudio",
+    "descripcion": "Métodos comprobados para mejorar el aprendizaje.",
+    "categoria": "Educativas",
+    "imagen": "https://placehold.co/380x200/1E3A8A/white?text=Noticia+3",
+    "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "autor": "Carlos Ruiz",
+    "fecha": "2026-08-13"
+  },
+  {
+    "id": 4,
+    "titulo": "Tendencias del comercio electrónico",
+    "descripcion": "El futuro de las ventas online en 2026.",
+    "categoria": "Comerciales",
+    "imagen": "https://placehold.co/380x200/1E3A8A/white?text=Noticia+4",
+    "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "autor": "Ana Torres",
+    "fecha": "2026-08-12"
+  },
+  {
+    "id": 5,
+    "titulo": "Robótica en el aula",
+    "descripcion": "Cómo la robótica está cambiando la educación.",
+    "categoria": "Tecnológicas",
+    "imagen": "https://placehold.co/380x200/1E3A8A/white?text=Noticia+5",
+    "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "autor": "Pedro López",
+    "fecha": "2026-08-11"
+  },
+  {
+    "id": 6,
+    "titulo": "Playas paradisíacas de Colombia",
+    "descripcion": "Los destinos más hermosos para visitar.",
+    "categoria": "Turísticas",
+    "imagen": "https://placehold.co/380x200/1E3A8A/white?text=Noticia+6",
+    "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "autor": "Laura Díaz",
+    "fecha": "2026-08-10"
+  }
+]

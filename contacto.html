@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notiportal - Contáctanos</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">Notiportal</div>
+    <nav class="menu">
+      <a href="index.html">Inicio</a>
+      <a href="listado.html">Noticia</a>
+      <a href="detalle.html">Detalle</a>
+      <a href="favoritos.html">Favoritos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- TÍTULO -->
+  <section class="titulo-seccion">
+    <h1>CONTÁCTANOS</h1>
+    <p>¿Tienes alguna pregunta o sugerencia? Escríbenos.</p>
+  </section>
+
+  <!-- FORMULARIO E INFORMACIÓN -->
+  <section class="contacto">
+    <div class="contacto-contenedor">
+
+      <!-- COLUMNA IZQUIERDA: FORMULARIO -->
+      <form id="formulario-contacto" class="formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="correo" placeholder="tu@correo.com">
+
+        <label for="asunto">Asunto</label>
+        <input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
+
+        <button type="submit" class="btn-primario">Enviar</button>
+        <p id="mensaje-error"></p>
+      </form>
+
+      <!-- COLUMNA DERECHA: INFORMACIÓN -->
+      <div class="info-contacto">
+        <h3>Información de contacto</h3>
+        <p>📧 correo@noticias.com</p>
+        <p>📞 +57 123 456 7890</p>
+        <p>📍 Calle 123 #45-67, Bogotá</p>
+        <p>🌐 Facebook | X | Instagram</p>
+        <p>🕐 Lunes a Viernes, 8:00 am - 5:00 pm</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-contenido">
+      <div>
+        <h3>Notiportal</h3>
+        <p>Las noticias que necesitas, en un solo lugar.</p>
+      </div>
+      <div>
+        <p>correo@noticias.com | Tel: 123 456 789</p>
+      </div>
+      <div>
+        <p>Facebook | X | Instagram</p>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Notiportal. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/contacto.js"></script>
+
+</body>
+</html>

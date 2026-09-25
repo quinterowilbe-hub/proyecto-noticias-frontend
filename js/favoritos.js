@@ -7,16 +7,19 @@ function obtenerFavoritos() {
 }
 
 // Agregar o quitar de favoritos
-function toggleFavorito(id) {
+// Agregar o quitar de favoritos
+function toggleFavorito(id, elemento) {
   let favoritos = obtenerFavoritos();
   const index = favoritos.indexOf(id);
 
   if (index === -1) {
+    // Agregar a favoritos
     favoritos.push(id);
-    alert('Noticia agregada a favoritos ❤');
+    if (elemento) elemento.classList.add('activo');
   } else {
+    // Quitar de favoritos
     favoritos.splice(index, 1);
-    alert('Noticia eliminada de favoritos');
+    if (elemento) elemento.classList.remove('activo');
   }
 
   localStorage.setItem('favoritos', JSON.stringify(favoritos));
@@ -65,3 +68,24 @@ async function renderizarFavoritos() {
 
 // Inicializar cuando se cargue la página
 document.addEventListener('DOMContentLoaded', renderizarFavoritos);
+
+
+// Toggle favorito desde el detalle (actualiza también el texto del botón)
+function toggleFavoritoDetalle(id, elemento) {
+  let favoritos = obtenerFavoritos();
+  const index = favoritos.indexOf(id);
+
+  if (index === -1) {
+    // Agregar a favoritos
+    favoritos.push(id);
+    elemento.classList.add('activo');
+    elemento.innerHTML = '❤ Quitar de favoritos';
+  } else {
+    // Quitar de favoritos
+    favoritos.splice(index, 1);
+    elemento.classList.remove('activo');
+    elemento.innerHTML = '🤍 Agregar a favoritos';
+  }
+
+  localStorage.setItem('favoritos', JSON.stringify(favoritos));
+}

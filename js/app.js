@@ -17,7 +17,13 @@ function renderizarCards(noticias, contenedorId) {
 
   contenedor.innerHTML = '';
 
+  // Obtener los favoritos actuales
+  const favoritos = obtenerFavoritos();
+
   noticias.forEach(noticia => {
+    // Verificar si esta noticia está en favoritos
+    const esFavorito = favoritos.includes(noticia.id);
+
     const card = document.createElement('div');
     card.classList.add('card');
     card.innerHTML = `
@@ -26,7 +32,7 @@ function renderizarCards(noticias, contenedorId) {
         <h3>${noticia.titulo}</h3>
         <p>${noticia.descripcion}</p>
         <a href="detalle.html?id=${noticia.id}&desde=listado" class="btn-primario">Ver más</a>
-        <span class="favorito" onclick="toggleFavorito(${noticia.id})">❤</span>
+        <span class="favorito ${esFavorito ? 'activo' : ''}" onclick="toggleFavorito(${noticia.id}, this)">❤</span>
       </div>
     `;
     contenedor.appendChild(card);

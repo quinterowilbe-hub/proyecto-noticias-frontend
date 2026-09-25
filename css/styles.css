@@ -105,11 +105,23 @@ body {
   margin-bottom: 15px;
 }
 
+/* CORAZÓN DE FAVORITOS */
 .favorito {
-  color: red;
-  font-size: 20px;
+  display: inline-block;
+  font-size: 22px;
   cursor: pointer;
   margin-left: 10px;
+  color: #9CA3AF;   /* Gris cuando NO es favorito */
+  transition: color 0.3s ease, transform 0.2s ease;
+  user-select: none;
+}
+
+.favorito:hover {
+  transform: scale(1.2);   /* Se agranda al pasar el mouse */
+}
+
+.favorito.activo {
+  color: #DC2626;   /* Rojo cuando SÍ es favorito */
 }
 
 /* FOOTER */
@@ -406,4 +418,32 @@ body {
   text-align: justify;
 }
 
+
+
+/* BOTÓN DE FAVORITOS EN EL DETALLE */
+.btn-favorito {
+  background-color: #F3F4F6;
+  color: #111827;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: inherit;
+}
+
+.btn-favorito:hover {
+  background-color: #E5E7EB;
+}
+
+.btn-favorito.activo {
+  background-color: #DC2626;
+  color: white;
+}
+
+.btn-favorito.activo:hover {
+  background-color: #B91C1C;
+}
 

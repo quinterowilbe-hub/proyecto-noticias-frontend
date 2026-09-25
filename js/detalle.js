@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Obtener parámetros de la URL
   const params = new URLSearchParams(window.location.search);
   let id = parseInt(params.get('id'));
-  const desde = params.get('desde'); // 👈 Leer "desde"
+  const desde = params.get('desde');
 
   // Cargar todas las noticias
   const noticias = await cargarNoticias();
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Guardar la noticia actual como última vista
   localStorage.setItem('ultimaNoticia', noticia.id);
 
-  //  CONFIGURAR EL BOTÓN "VOLVER" según el parámetro "desde"
+  // 👇 CONFIGURAR EL BOTÓN "VOLVER"
   if (enlaceVolver) {
     if (desde === 'favoritos') {
       enlaceVolver.href = 'favoritos.html';
@@ -43,6 +43,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 
+  // 👇 VERIFICAR SI YA ESTÁ EN FAVORITOS
+  const esFavorito = obtenerFavoritos().includes(noticia.id);
+
   // Renderizar el detalle
   contenedor.innerHTML = `
     <img src="${noticia.imagen}" alt="${noticia.titulo}" class="detalle-imagen">
@@ -50,10 +53,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     <h1>${noticia.titulo}</h1>
     <p class="metadatos">Por: ${noticia.autor} | Fecha: ${noticia.fecha}</p>
     <div class="contenido">
-  ${noticia.contenido.split('\n\n').map(p => `<p>${p}</p>`).join('')}
-</div>
+      ${noticia.contenido.split('\n\n').map(p => `<p>${p}</p>`).join('')}
+    </div>
     <div class="detalle-botones">
-      <button class="btn-favorito" onclick="toggleFavorito(${noticia.id})">❤ Agregar a favoritos</button>
+      <button 
+        class="btn-favorito ${esFavorito ? 'activo' : ''}" 
+        id="btn-favorito-detalle"
+        onclick="toggleFavoritoDetalle(${noticia.id}, this)">
+        ${esFavorito ? '❤ Quitar de favoritos' : '🤍 Agregar a favoritos'}
+      </button>
       <a href="contacto.html" class="btn-secundario">📧 Contactar</a>
     </div>
   `;

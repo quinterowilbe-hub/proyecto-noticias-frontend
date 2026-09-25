@@ -396,3 +396,14 @@ body {
     grid-template-columns: 1fr;
   }
 }
+/* CONTENIDO DEL DETALLE */
+
+.contenido p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #374151;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+

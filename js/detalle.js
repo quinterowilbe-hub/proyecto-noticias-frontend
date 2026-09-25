@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Guardar la noticia actual como última vista
   localStorage.setItem('ultimaNoticia', noticia.id);
 
-  // 👇 CONFIGURAR EL BOTÓN "VOLVER" según el parámetro "desde"
+  //  CONFIGURAR EL BOTÓN "VOLVER" según el parámetro "desde"
   if (enlaceVolver) {
     if (desde === 'favoritos') {
       enlaceVolver.href = 'favoritos.html';
@@ -49,7 +49,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     <span class="badge">${noticia.categoria}</span>
     <h1>${noticia.titulo}</h1>
     <p class="metadatos">Por: ${noticia.autor} | Fecha: ${noticia.fecha}</p>
-    <p class="contenido">${noticia.contenido}</p>
+    <div class="contenido">
+  ${noticia.contenido.split('\n\n').map(p => `<p>${p}</p>`).join('')}
+</div>
     <div class="detalle-botones">
       <button class="btn-favorito" onclick="toggleFavorito(${noticia.id})">❤ Agregar a favoritos</button>
       <a href="contacto.html" class="btn-secundario">📧 Contactar</a>

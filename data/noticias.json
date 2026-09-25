@@ -4,8 +4,8 @@
     "titulo": "Avances en inteligencia artificial",
     "descripcion": "Los últimos avances en IA están transformando la educación.",
     "categoria": "Tecnológicas",
-    "imagen": "https://placehold.co/380x200/1E3A8A/white?text=Noticia+1",
-    "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imagen": "imagenes/noticia1.jpg",
+   "contenido":"En un hito histórico para la tecnología y la infraestructura global, el Consorcio Internacional de Inteligencia Artificial (CIIA) presentó hoy Synapse-X, el primer modelo de IA neuro-simbólica diseñado para monitorear y autoreparar las redes de distribución eléctrica en tiempo real.\n\nEl sistema utiliza algoritmos de aprendizaje profundo integrados con sensores cuánticos para analizar patrones térmicos, fluctuaciones de voltaje y condiciones meteorológicas extremas con horas de anticipación. Según el equipo de desarrollo, el modelo es capaz de predecir apagones masivos y reorientar el flujo de energía de manera autónoma en cuestión de milisegundos.\n\nDurante las pruebas piloto realizadas durante tres meses en varias áreas metropolitanas, Synapse-X logró reducir las interrupciones del servicio eléctrico en un 94% y optimizó la eficiencia energética global de las zonas conectadas en un 18%.\n\nImpacto y futuro del proyecto:\n\n• Seguridad energética: Protege la infraestructura crítica ante eventos climáticos extremos o sobrecargas repentinas de la demanda.\n\n• Integración limpia: Facilita la incorporación masiva de fuentes de energía renovables intermitentes, como la eólica y la solar, reduciendo el desperdicio.\n\n• Despliegue global: Se prevé que para finales de 2027 el sistema se encuentre operando en más de 40 países de América, Europa y Asia.\n\nExpertos en tecnología afirman que este avance marca el inicio de una nueva era en la gestión de servicios públicos inteligentes, donde la inteligencia artificial actúa como un escudo preventivo ante posibles crisis de infraestructura.",
     "autor": "Juan Pérez",
     "fecha": "2026-08-15"
   },
@@ -14,8 +14,8 @@
     "titulo": "Descubre los mejores destinos turísticos",
     "descripcion": "Una guía completa para viajeros aventureros.",
     "categoria": "Turísticas",
-    "imagen": "https://placehold.co/380x200/1E3A8A/white?text=Noticia+2",
-    "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "imagen": "imagenes/noticia2.jpg",
+    "contenido": "La Organización Mundial del Turismo (OMT) ha publicado su informe anual con la lista definitiva de los mejores destinos turísticos. La selección de este año destaca lugares que combinan innovación sostenible, rica herencia cultural y experiencias inmersivas para viajeros de todo el mundo.\n\nEntre los lugares más destacados se encuentra Kioto, Japón, aclamado por su equilibrio perfecto entre templos ancestrales y una nueva infraestructura hotelera de huella de carbono cero. Le sigue Medellín, Colombia, reconocida internacionalmente por su transformación urbana, su clima primaveral y su vibrante oferta gastronómica y de ecoturismo en los Andes.\n\nEn la categoría de naturaleza y aventura, los Fiordos de Noruega lideran las preferencias gracias a sus cruceros totalmente eléctricos y rutas sostenibles para admirar auroras boreales. Por su parte, Ciudad del Cabo, Sudáfrica, se consolida como el destino preferido para los amantes de la biodiversidad, la alta cocina y las vistas atlánticas.\n\nInforme resalta que las tendencias de viaje actuales se enfocan en la sostenibilidad, la búsqueda de experiencias auténticas con comunidades locales y el uso de herramientas tecnológicas avanzadas para personalizar itinerarios. El turismo actual no solo busca entretener, sino enriquecer al viajero mientras preserva los entornos naturales.",
     "autor": "María Gómez",
     "fecha": "2026-08-14"
   },
@@ -24,8 +24,8 @@
     "titulo": "Nuevas técnicas de estudio",
     "descripcion": "Métodos comprobados para mejorar el aprendizaje.",
     "categoria": "Educativas",
-    "imagen": "https://placehold.co/380x200/1E3A8A/white?text=Noticia+3",
-    "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "imagen": "imagenes/noticia3.jpg",
+    "contenido": "Un informe publicado hoy por la Red Internacional de Neuroeducación revela que los estudiantes que han adoptado metodologías de estudio adaptativas y activas han incrementado su retención académica en un 40% en comparación con los métodos tradicionales de lectura pasiva.\n\nLa transición desde la memorización memorística hacia herramientas de Recuperación Activa respaldadas por Inteligencia Artificial y la Repetición Espaciada automatizada está redefiniendo los hábitos de aprendizaje en universidades y colegios de todo el mundo.\n\nExpertos destacan que el uso estratégico de técnicas como el Interleaving (estudio intercalado de asignaturas) y la Técnica Feynman Digital no solo reduce el tiempo invertido frente a los libros, sino que disminuye drásticamente los niveles de estrés y ansiedad previa a los exámenes.\n\nClaves del nuevo modelo de aprendizaje \n\nOptimización del tiempo: Algoritmos de repetición espaciada permiten a los estudiantes repasar únicamente los conceptos a punto de ser olvidados.\n\nComprensión profunda: El método de la página en blanco (Brain Dump) obliga a la mente a procesar y estructurar la información en lugar de solo reelerla.\n\nIntegración tecnológica: La IA se consolida como un tutor personal para generar casos prácticos e identificar lagunas de conocimiento de forma inmediata.\n\nInstituciones educativas de la región ya planean incorporar estas metodologías en sus programas de orientación académica para el próximo ciclo lectivo.",
     "autor": "Carlos Ruiz",
     "fecha": "2026-08-13"
   },
@@ -34,8 +34,8 @@
     "titulo": "Tendencias del comercio electrónico",
     "descripcion": "El futuro de las ventas online en 2026.",
     "categoria": "Comerciales",
-    "imagen": "https://placehold.co/380x200/1E3A8A/white?text=Noticia+4",
-    "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "imagen": "imagenes/noticia4.jpg",
+    "contenido": "La industria del comercio electrónico atraviesa una de sus mayores transformaciones estructurales. Según el informe sobre el estado del comercio digital presentado esta semana por los principales analistas del sector, las tiendas en línea han dejado de ser catálogos estáticos para convertirse en ecosistemas interactivos e hiperpersonalizados impulsados por la inteligencia artificial.\n\nEl concepto dominante de la temporada es el comercio agéntico. A diferencia de las recomendaciones pasivas tradicionales, los agentes de IA no solo sugieren artículos, sino que investigan, comparan y ejecutan decisiones de compra complejas o reposiciones de inventario de forma autónoma en nombre del usuario.\n\nDe forma paralela, el social commerce y el live shopping (compras en transmisiones en directo) se han afianzado como canales de mayor tasa de conversión. Las plataformas sociales operan ahora como centros de entretenimiento interactivo donde los usuarios descubren y adquieren productos en tiempo real a través de creadores de contenido, eliminando cualquier fricción en el proceso de pago\n\nNuevas dinámicas del comercio electrónico\n\neCommerce conversacional: La interacción fluida por voz o texto reemplaza los menús de búsqueda tradicionales.\n\nAuge del Recommerce: La compraventa de productos reacondicionados y de segunda mano crece impulsada por la exigencia de un consumo más sostenible y transparente.\n\nxperiencias Phygital: Integración omnicanal donde la frontera entre la tienda física y la plataforma digital desaparece por completo.\n\nLas empresas que logren equilibrar la automatización avanzada con una conexión auténtica con el consumidor liderarán el crecimiento en el mercado global durante los próximos años.",
     "autor": "Ana Torres",
     "fecha": "2026-08-12"
   },
@@ -44,8 +44,8 @@
     "titulo": "Robótica en el aula",
     "descripcion": "Cómo la robótica está cambiando la educación.",
     "categoria": "Tecnológicas",
-    "imagen": "https://placehold.co/380x200/1E3A8A/white?text=Noticia+5",
-    "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "imagen": "imagenes/noticia5.jpg",
+    "contenido": "En un esfuerzo por preparar a las nuevas generaciones para los desafíos del siglo XXI, varias instituciones educativas de Medellín han implementado con éxito programas de robótica en el aula. Estos programas no solo enseñan a los estudiantes a construir y programar robots, sino que fomentan el pensamiento crítico, la resolución de problemas y el trabajo en equipo.\n\nEl aula de robótica se ha convertido en un laboratorio de innovación, donde los estudiantes colaboran en proyectos que integran ciencia, tecnología, ingeniería y matemáticas (STEM). Con kits de robótica avanzados y herramientas de diseño asistido por computadora (CAD), los alumnos diseñan prototipos que resuelven problemas del mundo real, como sistemas de riego automatizados para la agricultura local o robots de limpieza para los espacios públicos.\n\nEl Impacto en el Aprendizaje\n\nLa robótica ha transformado la forma en que nuestros estudiantes aprenden, afirma la Dra. Elena Gómez, directora del programa de innovación educativa. Han pasado de ser consumidores pasivos de tecnología a creadores activos, capaces de aplicar conceptos teóricos en soluciones tangibles.\n\nEl programa también ha tenido un impacto positivo en la motivación y el compromiso de los estudiantes. Muchos alumnos que antes mostraban poco interés en las materias STEM ahora se sienten inspirados a seguir carreras en ingeniería y ciencias de la computación.\n\nMirando al Futuro\n\nCon el apoyo del gobierno local y las empresas tecnológicas, se espera que el programa de robótica se expanda a más escuelas en la región. El objetivo es democratizar el acceso a la educación tecnológica de alta calidad y empoderar a los jóvenes para que se conviertan en líderes en la economía digital\n\nLa robótica educativa no es solo una tendencia, sino una necesidad en un mundo cada vez más tecnológico. Medellín está a la vanguardia de esta revolución educativa, preparando a sus estudiantes para un futuro lleno de oportunidades.",
     "autor": "Pedro López",
     "fecha": "2026-08-11"
   },
@@ -54,8 +54,8 @@
     "titulo": "Playas paradisíacas de Colombia",
     "descripcion": "Los destinos más hermosos para visitar.",
     "categoria": "Turísticas",
-    "imagen": "https://placehold.co/380x200/1E3A8A/white?text=Noticia+6",
-    "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "imagen": "imagenes/noticia6.jpg",
+    "contenido": "Colombia, conocida por su biodiversidad y riqueza cultural, alberga algunas de las playas más paradisíacas del mundo. Entre ellas, destacan las playas del Parque Nacional Natural Tayrona, un rincón del Caribe donde la selva tropical se encuentra con el mar turquesa y la arena blanca.\n\nEste rincón de ensueño ofrece a los viajeros una experiencia única, combinando la belleza natural con la tranquilidad y la aventura. Entre las playas más populares del parque se encuentran Cabo San Juan del Guía, La Piscina y Arrecifes, cada una con su propio encanto y características.\n\nUn Refugio de Biodiversidad\n\nEl Parque Nacional Natural Tayrona no solo es un destino de playa, sino también un refugio de biodiversidad. Los visitantes pueden explorar senderos ecológicos, observar la fauna y flora local, y sumergirse en la cultura de las comunidades indígenas que habitan la zona.\n\n'El Tayrona es un lugar mágico donde la naturaleza se manifiesta en todo su esplendor', afirma Juan Carlos García, director del parque. 'Nuestra misión es preservar este paraíso para las generaciones futuras y promover un turismo sostenible y responsable'.\n\nExperiencias Únicas\n\nAdemás de disfrutar del sol y el mar, los viajeros pueden participar en actividades como snorkel, buceo, senderismo y avistamiento de aves. El parque también ofrece opciones de alojamiento, desde zonas de camping hasta eco-habs, para aquellos que deseen vivir una experiencia inmersiva en la naturaleza.\n\nColombia se consolida como un destino turístico de clase mundial, gracias a sus playas paradisíacas y su compromiso con la sostenibilidad. El Parque Nacional Natural Tayrona es solo un ejemplo de los tesoros que este país tiene para ofrecer a los viajeros que buscan escapar de la rutina y conectar con la naturaleza.",
     "autor": "Laura Díaz",
     "fecha": "2026-08-10"
   }

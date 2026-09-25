@@ -5,8 +5,6 @@ function obtenerFavoritos() {
   const favoritos = localStorage.getItem('favoritos');
   return favoritos ? JSON.parse(favoritos) : [];
 }
-
-// Agregar o quitar de favoritos
 // Agregar o quitar de favoritos
 function toggleFavorito(id, elemento) {
   let favoritos = obtenerFavoritos();

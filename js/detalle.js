@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Guardar la noticia actual como última vista
   localStorage.setItem('ultimaNoticia', noticia.id);
 
-  // 👇 CONFIGURAR EL BOTÓN "VOLVER"
+  // CONFIGURAR EL BOTÓN "VOLVER"
   if (enlaceVolver) {
     if (desde === 'favoritos') {
       enlaceVolver.href = 'favoritos.html';
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 
-  // 👇 VERIFICAR SI YA ESTÁ EN FAVORITOS
+  // VERIFICAR SI YA ESTÁ EN FAVORITOS
   const esFavorito = obtenerFavoritos().includes(noticia.id);
 
   // Renderizar el detalle
